@@ -1,0 +1,60 @@
+.container{
+    max-width: 960px;
+    margin:  0 auto;
+}
+
+.banner-bg{
+    height:500px ;
+    background: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    /*overflow: hidden; คือการตัดช่องว่างระหว่างรูปbg กับข้างบน*/
+}
+
+.banner-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.banner-text{
+    color: #fff;
+    text-align: center;
+}
+
+.banner-text h1{
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.banner-text h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.banner-btn{
+    background-color: #fff;
+    display: inline-block;   /*ใช้ inline-block เพื่อจะได้ใช้marginได้*/
+    padding: .5rem 1rem;    /*บนล่าง 5rem ซ้ายขวา 1rem*/
+    text-decoration: none;
+    color: #333;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    margin-top: 2.5rem;
+    border-radius: 10px;
+    text-transform: uppercase;    /*ให้เป็นตัวพิมพ์ใหญ่ทั้งหมด*/
+    font-weight:600;
+}
+
+.banner-btn:hover{
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+
+    .banner-text{
+        padding: 0 2rem;
+    }
+}

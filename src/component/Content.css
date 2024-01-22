@@ -1,0 +1,104 @@
+.container{
+    max-width: 960px; /*เดิมใช้960px*/
+    margin:  0 auto;
+}
+
+.content-con{
+    display: flex;
+    justify-content: space-between;
+    /*background-color: #282C35;*/ 
+}
+
+.content-con:first-child, .content-con:last-child{
+    padding: 5rem 0;
+}
+
+.content-l img{
+width: 100%;
+border-radius: 10px;
+}
+
+.content-r{
+    padding: 2rem;
+    text-align:left;
+}
+
+.content-r p{
+    text-align: justify;
+}
+
+.content-r h2{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.all-skill{
+    display: flex;
+    justify-content: space-between;
+    /*padding-right: 5rem;*/
+   
+}
+
+.hard-skill{
+    margin-right: 2rem;
+    width: 8rem;
+    margin-left: 2rem;
+}
+
+.hard-skill h2{
+    font-size: 1.5rem;
+
+}
+
+
+.all-hard{
+    list-style-type: disc;
+
+}
+
+.all-soft{
+    list-style-type: disc;
+    padding: 0 3rem
+}
+
+.soft-skill h2{
+    padding-left: 3rem;
+    font-size: 1.5rem;
+}
+
+.soft-skill{
+    width: 15rem;
+}
+
+.contacts{
+    width: 15rem;
+}
+
+
+.all-con p{
+    font-size:medium  ;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.instagram li{
+    padding-bottom: 0.5rem;
+}
+
+.facebook li{
+    padding-bottom: 0.5rem;
+}
+
+.email li{
+    padding-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 480px) {
+    .content-con{
+        flex-direction:column;
+    }
+    .content-con:nth-child(2) .content-r{
+        order: 1;
+    }
+}
