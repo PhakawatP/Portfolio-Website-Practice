@@ -14,7 +14,7 @@ function Banner() {
                   <h1>{bannerData.title}</h1>
                   <h2>Computer Engineering</h2>
                   <h2>King Mongkut's University of Technology Thonburi</h2>
-                  <a href='https://drive.google.com/file/d/1VPeSYfs6T7b94P-jg2qjVRgVhQnFjpar/view?usp=sharing'className='banner-btn'>Download Resume</a>
+                  <a href='https://drive.google.com/file/d/1mjZjNKzF_bWHZ99sn5X3WTVMysbWw5-h/view?usp=sharing'className='banner-btn'>Download Resume</a>
               </div>
           </div>
       </div>

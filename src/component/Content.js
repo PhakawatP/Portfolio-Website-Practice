@@ -48,7 +48,7 @@ This is my first portfolio website. I intend to practice making this website to 
               </div>
             </div>
           </div>
-          <div className='content-l'>
+          <div className='content-l' >
              <img src='https://images.unsplash.com/photo-1619410283995-43d9134e7656?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt=''/>
           </div>
         </section>
